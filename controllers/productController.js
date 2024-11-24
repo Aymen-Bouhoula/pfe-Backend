@@ -41,6 +41,8 @@ async function creationProduct(req, res) {
 
 async function updateProduct(req, res) {}
 
+
+//Delete product
 async function deleteProduct(req, res) {
     try {
         const {id} = req.params
